@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeckOfCards", "DeckOfCards.csproj", "{17853364-DD43-4E7B-A0A0-88883E8DC7AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCardsTests", "..\DeckOfCardsTests\DeckOfCardsTests.csproj", "{FC371C4E-6279-4512-AE03-5AA69051A269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17853364-DD43-4E7B-A0A0-88883E8DC7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17853364-DD43-4E7B-A0A0-88883E8DC7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17853364-DD43-4E7B-A0A0-88883E8DC7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17853364-DD43-4E7B-A0A0-88883E8DC7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC371C4E-6279-4512-AE03-5AA69051A269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC371C4E-6279-4512-AE03-5AA69051A269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC371C4E-6279-4512-AE03-5AA69051A269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC371C4E-6279-4512-AE03-5AA69051A269}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EF028BF-7549-45A2-9163-35E59863E719}
+	EndGlobalSection
+EndGlobal
