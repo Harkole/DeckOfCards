@@ -1,0 +1,8 @@
+{
+  "short_name": "DoC",
+  "name": "Deck of Cards",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#055742"
+}
