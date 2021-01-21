@@ -24,6 +24,17 @@ namespace DeckOfCards
             // Configure Dependancy Injection
             services.AddSingleton<IDeckService, DeckService>();
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", b =>
+                {
+                    b.SetIsOriginAllowed(_ => true)
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                });
+            });
+
             services.AddControllers();
 
             services.AddSwaggerGen(c =>
@@ -45,6 +56,8 @@ namespace DeckOfCards
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("CorsPolicy");
 
             app.UseAuthorization();
 
